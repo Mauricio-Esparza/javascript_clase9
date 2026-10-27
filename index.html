@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Génova - Tienda de Velas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Génova velas de soja</h1>
+    <p></p>
+  </header>
+
+  <main>
+    <div id="feedback" class="mensaje"></div>
+
+    <section class="seccion-busqueda">
+      <label for="busqueda">Buscar producto:</label>
+      <input type="text" id="busqueda" placeholder="Ej: lavanda, canela...">
+    </section>
+
+    <div class="contenedor-principal">
+      <section class="seccion-catalogo">
+        <h2>Catálogo de Velas</h2>
+        <ul id="listaproductos" class="lista-productos"></ul>
+      </section>
+
+      <section class="seccion-carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="listacarrito" class="lista-carrito"></ul>
+
+        <div class="resumen-carrito">
+          <p id="total">total: $0</p>
+          <div class="acciones-carrito">
+            <button type="button" id="btnvaciar">Vaciar carrito</button>
+            <button type="button" id="btncomprar">Comprar</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Génova. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
